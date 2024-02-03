@@ -1,0 +1,29 @@
+@media (max-width: 600px){
+
+    body{
+        height: 80vh;
+    }
+
+    main{
+        position: relative;
+    }
+
+    .cartao{
+        top: 55vh;
+        flex-direction: column;
+    }
+
+    .imagem{
+        height: 240px
+    }
+    
+    .imagem img{
+        border-radius: 10px 10px 0 0;
+        max-width: 350px;
+    }
+
+    .informacoes{
+        border-radius: 0 0 10px 10px;
+        max-height: 50%;
+    }
+}
